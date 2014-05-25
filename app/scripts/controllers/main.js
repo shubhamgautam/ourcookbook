@@ -10,6 +10,7 @@ angular.module('cookbookApp')
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
-      'Karma'
+      'Karma',
+      'cookbook'
     ];
   });
