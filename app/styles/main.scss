@@ -68,9 +68,7 @@ body {
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
-    .container {
-        max-width: 730px;
-    }
+    
 
     /* Remove the padding we set earlier */
     .header,
@@ -86,5 +84,16 @@ body {
     /* Remove the bottom border on the jumbotron for visual effect */
     .jumbotron {
         border-bottom: 0;
+    }
+}
+
+
+.col-space{
+    margin: 10px;
+}
+ 
+@media (min-width: 1200px){
+    .container{
+        width:95%;
     }
 }
